@@ -49,7 +49,8 @@ Représente un ingrédient de la recette. Chaque **Ingredient** est lié à un (
 
 - Lance le serveur local pour vérifier que ton application est correctement configurée.
 
-### 2. Construire la base de données [📜](https://symfony.com/doc/current/doctrine.html)
+### 2. Construire la base de données [📜](https://symfo
+ny.com/doc/current/doctrine.html)
 
 Utilise l'outil en ligne de commande de Symfony pour créer les _mappings_ nécessaires afin de générer la base de données décrite dans la section **Modèle de données**.
 
@@ -59,7 +60,7 @@ Tu peux ensuite créer deux ou trois recettes en t'inspirant (ou non) des recett
 
 #### Bonus [📜](https://symfony.com/doc/current/bundles/DoctrineFixturesBundle/index.html)
 
-Ajoute des _fixtures_ afin de remplir automatiquement la base de données avec des données factices. Pour cela tu peux utiliser le code suivant afin d'extraire des recettes de [The Meal DB](https://www.themealdb.com/).
+Ajoute des _fixtures_ afin de remplir automatiquement la base de données avec des données factices. Pour cela tu peux utiliser le code suivant afin d'extraire des recettes de [The Meal DB](https://www.themealdDeb.com/).
 
 ```php
 $data = file_get_contents('https://www.themealdb.com/api/json/v1/1/lookup.php?i=52772');
